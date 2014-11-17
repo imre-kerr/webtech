@@ -1,0 +1,22 @@
+Information about graphical stuff
+
+Fonts:
+
+Courier new: 
+Ingredient list: 14pt regular
+
+OpenSans:
+Menu text: 14pt semibold
+Content: 14pt regular
+Content header: 18pt bold
+Symbol text: 14 pt regular
+
+
+Gist Rough Upr Exbold Two Demo:
+Website name: 21pt regular
+
+Colors:
+
+Logo-background: #B3B3B3
+Menu-background: #666666
+Ingredient list background: #E6E6E6
