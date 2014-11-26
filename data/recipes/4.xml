@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE recipes SYSTEM "recipes.dtd">
-<name>Hjemmelagde hamburger</name>
-<size>8 brød</size>
-<time>2 timer</time>
-<difficulty>Middels</difficulty>
-<description>Hamburgerbrød fra butikken er for sveklinger, og er dessuten dyrere enn hjemmelagde. Pluss at du får 1000 voksenpoeng av å lage dem. Oppskriften er hentet fra <a href="http://burgerpolitiet.no/2012/10/burgerbrod/">Burgerpolitiet</a> </description>
-<ingredients>
-	<ul>
-		<li>0,5 dl lunken melk</li>
-    	<li>2,5 dl lunkent vann</li>
-    	<li>1/2 pakke tørrgjær</li>
-    	<li>30 g sukker</li>
-    	<li>2 egg</li>
-    	<li>450 g hvetemel</li>
-    	<li>1 ts salt</li>
-    	<li>35 g smør</li>
-    	<li>Sesamfrø (kan sløyfes (hvis du er skikkelig rar))</li>
-	</ul>
-	
-</ingredients>
-<steps>
-<ol>
-	<li>Bland sammen vann, melk, sukker og gjær i en skål. La stå noen minutter.</li>
-	<li>Bland mel og salt, og smuldre inn smøret så bra du får til. Tilsett gjærblandingen og ett egg, bland sammen til det blir en deig. Kna deigen i 8-10 minutter for hånd eller 5-6 minutter i kjøkkenmaskin. Deigen kan være litt seig, men hvis du tilsetter nok mel til at deigen blir skikkelig enkel å jobbe med vil brødene bli tørre og tunge.</li>
-	<li>Del deigen i åtte like store deler og trill de ut til boller. Legg de på et ovnsbrett med bakepapir på, og la de stå og etterheve enda et par timer.</li>
-	<li>Sett ovnen på 200 grader. Hvis du har dampovn, skru på dampfunksjonen, hvis ikke kan du sette en metallpanne med vann nederst i ovnen. Dette er ikke essensielt, men gir bedre skorpe og luftigere tekstur. Visp sammen det siste egget og pensle burgerbrødene med det, og dryss på sesamfrø. Stek midt i ovnen ca. 15 minutter, til de er brungyldne. </li>
-</ol>
-</steps>
-<images></images>
+<recipe>
+	<name>Hjemmelagde hamburgerbrød</name>
+	<description>Hamburgerbrød fra butikken er for sveklinger, og er dessuten dyrere enn hjemmelagde. Pluss at du får 1000 voksenpoeng av å lage dem. Oppskriften er hentet fra <a href="http://burgerpolitiet.no/2012/10/burgerbrod/">Burgerpolitiet</a> </description>
+	<size>8 brød</size>
+	<time>2 timer</time>
+	<difficulty>2</difficulty>
+	<ingredients>
+		<ul>
+			<li>0,5 dl lunken melk</li>
+			<li>2,5 dl lunkent vann</li>
+			<li>1/2 pakke tørrgjær</li>
+			<li>30 g sukker</li>
+			<li>2 egg</li>
+			<li>450 g hvetemel</li>
+			<li>1 ts salt</li>
+			<li>35 g smør</li>
+			<li>Sesamfrø (kan sløyfes (hvis du er skikkelig rar))</li>
+		</ul>
+	</ingredients>
+	<steps>
+		<ol>
+			<li>Bland sammen vann, melk, sukker og gjær i en skål. La stå noen minutter.</li>
+			<li>Bland mel og salt, og smuldre inn smøret så bra du får til. Tilsett gjærblandingen og ett egg, bland sammen til det blir en deig. Kna deigen i 8-10 minutter for hånd eller 5-6 minutter i kjøkkenmaskin. Deigen kan være litt seig, men hvis du tilsetter nok mel til at deigen blir skikkelig enkel å jobbe med vil brødene bli tørre og tunge.</li>
+			<li>Del deigen i åtte like store deler og trill de ut til boller. Legg de på et ovnsbrett med bakepapir på, og la de stå og etterheve enda et par timer.</li>
+			<li>Sett ovnen på 200 grader. Hvis du har dampovn, skru på dampfunksjonen, hvis ikke kan du sette en metallpanne med vann nederst i ovnen. Dette er ikke essensielt, men gir bedre skorpe og luftigere tekstur. Visp sammen det siste egget og pensle burgerbrødene med det, og dryss på sesamfrø. Stek midt i ovnen ca. 15 minutter, til de er brungyldne. </li>
+		</ol>
+	</steps>
+	<images></images>
+</recipe>
