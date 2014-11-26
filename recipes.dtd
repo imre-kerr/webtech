@@ -1,0 +1,11 @@
+<!DOCTYPE recipe
+[
+<!ELEMENT recipe (name, size, time, difficulty, ingredients,steps,images)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT difficulty (barneskirenn, lett, middels, vanskelig, umulig)>
+<!ELEMENT ingredients (#PCDATA)>
+<!ELEMENT steps (#PCDATA)>
+<!ELEMENT images (#PCDATA)>
+]>
