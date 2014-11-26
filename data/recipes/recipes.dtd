@@ -2,9 +2,10 @@
 [
 <!ELEMENT recipe (name, size, time, difficulty, ingredients,steps,images)>
 <!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
 <!ELEMENT size (#PCDATA)>
 <!ELEMENT time (#PCDATA)>
-<!ELEMENT difficulty (barneskirenn, lett, middels, vanskelig, umulig)>
+<!ELEMENT difficulty (#PCDATA)>
 <!ELEMENT ingredients (#PCDATA)>
 <!ELEMENT steps (#PCDATA)>
 <!ELEMENT images (#PCDATA)>
