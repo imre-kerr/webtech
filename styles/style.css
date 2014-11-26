@@ -49,8 +49,15 @@ footer {
     background: #E6E6E6;
     margin-top: 20px;
     padding: 5px 0px;
+}
 
+ul li {
     font-family: "Courier New", Courier, monospace;
+    list-style-type: none;
+}
+
+.recipe-icon p {
+    margin: 0;
 }
 
 .recipe-right {
