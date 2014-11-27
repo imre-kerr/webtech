@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recipes SYSTEM "recipes.dtd">
+<name>Fastelavnsboller</name>
+<size>20 porsjoner</size>
+<time>60</time>
+<difficulty>3</difficulty>
+<description>Fastelavensboller serveres tradisjonelt på fastelavnssøndag. Denne varianten er fylt med eggekrem.</description>
+<ingredients>
+	<ul>
+		<li>
+			<ul>
+				<li><h3>Bollene</h3></li>
+				<li>1 l hvetemel</li>
+				<li>1 dl sukker</li>
+				<li>3⁄4 ts malt kardemomme </li>
+				<li> 100 g smør </li>
+				<li>3 dl melk</li>
+				<li>1 stk egg</li>
+				<li>50 g gjær</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li><h3>Eggekrem</h3></li>
+				<li>1⁄2 stk vaniljestang eller litt vaniljesukker </li>
+				<li>2 dl melk</li>
+				<li<1 1⁄2 ss sukker</li>
+				<li>3⁄4 ss maisstivelse (maizena)</li>
+				<li>1⁄2 stk egg til pensling</li>
+			</ul>
+		</li>
+	<ul>
+</ingredients>
+<steps>
+<ol>
+	<li>Smelt smøret, tilsett melken og varm det til det er lunkent. Rør ut gjæren i melkeblandingen. Visp i egg og sukker og tilsett melet med kardemomme. La deigen heve tildekket til dobbelt størrelse i 1/2 - 3/4 time.</li>
+	<li>Skrap ut vaniljefrøene og ha dem i en kjele sammen med resten av ingrediensene til eggekremen. Varm opp under omrøring til kremen begynner å tykne fra bunnen. Trekk kjelen til side når det tykner raskere enn du rekker å røre jevnt, ellers kan kremen "sprekke". Sett kjelen tilbake på platen for å tykne videre til passe konsistens. Avkjøl i kaldt vann.</li>
+	<li>Trill deigen til boller. Lag en fordypning i hver. Legg i litt eggekrem. Trekk deigen over fyllet og legg bollene med skjøten ned mot platen. Etterhev dem godt. </li>
+	<li>Pensle bollene med sammenpisket egg og stek dem midt i stekeovnen ved 225 °C i 12-15 minutter.</li>
+	<li>Bilde, og opphavsrett tilhørerer Matprat: http://www.matprat.no/oppskrifter/tradisjon/fastelavnsboller/</li>
+</ol>
+</steps>
+<images></images>
