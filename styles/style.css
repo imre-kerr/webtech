@@ -81,3 +81,12 @@ ul li {
 #search-text {
     width: 80%;
 }
+
+.result-text {
+    padding-left: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

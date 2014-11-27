@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index SYSTEM "index.dtd">
+<index>
+	<recipe>
+		<id>2</id>
+		<title>Improvisert Pølsegryte</title>
+		<tags>meat</tags>
+	</recipe>
+	<recipe>
+		<id>3</id>
+		<title>Tunfisksalat</title>
+		<tags>fish pasta</tags>
+	</recipe>
+	<recipe>
+		<id>4</id>
+		<title>Hjemmelagde hamburgerbrød</title>
+		<tags>bake</tags>
+	</recipe>
+	<recipe>
+		<id>5</id>
+		<title>Sjokoladekake</title>
+		<tags>bake dessert</tags>
+	</recipe>
+	<recipe>
+		<id>6</id>
+		<title>Sursøt kylling</title>
+		<tags>bird</tags>
+	</recipe>
+	<recipe>
+		<id>7</id>
+		<title>Peppernøtter</title>
+		<tags>bake dessert</tags>
+	</recipe>
+	<recipe>
+		<id>8</id>
+		<title>Fastelavnsboller</title>
+		<tags>bake dessert</tags>
+	</recipe>
+	<recipe>
+		<id>9</id>
+		<title>Sandwich med juleskinke, ost og sennep</title>
+		<tags>meat</tags>
+	</recipe>
+	<recipe>
+		<id>10</id>
+		<title>Grillet julepølse i lefse</title>
+		<tags>meat</tags>
+	</recipe>
+</index>

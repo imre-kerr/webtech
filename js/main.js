@@ -14,7 +14,7 @@ function getAndParse (url, cb) {
     xhr.open("GET", url);
     xhr.responseType = "document";
     xhr.send();
-}
+};
 
 function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
@@ -26,4 +26,4 @@ function getQueryVariable(variable) {
         }
     }
     console.log('Query variable %s not found', variable);
-}
+};
