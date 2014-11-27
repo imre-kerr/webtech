@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE recipes SYSTEM "recipes.dtd">
 <recipe>
-<name>Sjokoladekake</name>
-<size>Stor langpanne</size>
-<time>1 time</time>
-<difficulty>3</difficulty>
-<description> Dette er den beste sjokoladekaken i hele verden. OMNOMNOM! </description>
-<ingredients>
-	<h3>Kake</h3>
-	<ul>
-		<li>3-4 dl sukker</li>
-    	<li>5 egg</li>
-    	<li>375 g smør</li>
-    	<li>2,5 dl melk</li>
-    	<li>2 egg</li>
-    	<li>5-6 ss bakekakao(strøkne)</li>
-    	<li>1 ss bakepulver</li>
-    	<li>1 ss vaniljesukker</li>
-    	<li>7,5 dl hvetemel</li>
-	</ul>
-	<h3>Glasur</h3>
-	<ul>
-		<li>6 dl smeltet smør</li>
-    	<li>6 ss kaffe</li>
-    	<li>2 ss bakekakao</li>
-    	<li>2 ts vaniljesukker</li>
-    	<li>5 dl siktet melis</li>
-	</ul>
-</ingredients>
-<steps>
-<ol>
-	<li>Sett ovnen på 180 grader. Visp egg og sukker til en luftig eggedosis.</li>
-	<li>Smelt smøret og bland det med melken.</li>
-	<li>Bland sammen det tørre og bland sammen tørt og vått vekselvis. Bruk sikt når du har i tørrvarene.</li>
-	<li>Ha bakepapir i en stor langpanne og hvelv røren over i den. stek kaken i 30-40 minutter. Sjekk om kaken er ferdig ved å stikke en gaffel eller stekepinne i midten av den. Sitter det røre på den er den ikke ferdig.</li>
-	<li>Bland sammen smør, kaffe kakao og vaniljesukker. Ha i litt og litt melis til konsistensen blir god. Vent til kaken er kjølig før du smører på glasuren. Både glasur og kake kan fryses.</li>
-</ol>
-</steps>
-<images></images>
+	<name>Sjokoladekake</name>
+	<size>Stor langpanne</size>
+	<time>1 time</time>
+	<difficulty>3</difficulty>
+	<description> Dette er den beste sjokoladekaken i hele verden. OMNOMNOM! </description>
+	<ingredients>
+		<h3>Kake</h3>
+		<ul>
+			<li>3-4 dl sukker</li>
+			<li>5 egg</li>
+			<li>375 g smør</li>
+			<li>2,5 dl melk</li>
+			<li>2 egg</li>
+			<li>5-6 ss bakekakao(strøkne)</li>
+			<li>1 ss bakepulver</li>
+			<li>1 ss vaniljesukker</li>
+			<li>7,5 dl hvetemel</li>
+		</ul>
+		<h3>Glasur</h3>
+		<ul>
+			<li>6 dl smeltet smør</li>
+			<li>6 ss kaffe</li>
+			<li>2 ss bakekakao</li>
+			<li>2 ts vaniljesukker</li>
+			<li>5 dl siktet melis</li>
+		</ul>
+	</ingredients>
+	<steps>
+		<ol>
+			<li>Sett ovnen på 180 grader. Visp egg og sukker til en luftig eggedosis.</li>
+			<li>Smelt smøret og bland det med melken.</li>
+			<li>Bland sammen det tørre og bland sammen tørt og vått vekselvis. Bruk sikt når du har i tørrvarene.</li>
+			<li>Ha bakepapir i en stor langpanne og hvelv røren over i den. stek kaken i 30-40 minutter. Sjekk om kaken er ferdig ved å stikke en gaffel eller stekepinne i midten av den. Sitter det røre på den er den ikke ferdig.</li>
+			<li>Bland sammen smør, kaffe kakao og vaniljesukker. Ha i litt og litt melis til konsistensen blir god. Vent til kaken er kjølig før du smører på glasuren. Både glasur og kake kan fryses.</li>
+		</ol>
+	</steps>
+	<images></images>
 </recipe>

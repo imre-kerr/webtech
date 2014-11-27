@@ -1,53 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE recipes SYSTEM "recipes.dtd">
-<name>Sursøt kylling</name>
-<size>2 Porsjoner</size>
-<time>10</time>
-<difficulty>2</difficulty>
-<description>Kylling marinert i hjemmelaget marinade, med egen saus og ris.</description>
-<ingredients>
-	<ul>
-		<li>
-			<ul>
-				<li><h3>Marinaden</h3></li>
-				<li>2 ts soya-saus </li>
-				<li>1 ts shaoxing risvin (eller sherry/eplejuice) </li>
-				<li> klype hvit pepper </li>
-				<li>1/2 ts salt</li>
-				<li>dæsj sesam-olje</li>
-			</ul>
-		</li>
-		<li>
-			<ul>
-				<li><h3>Saus</h3></li>
-				<li>8 ss ris eddikt </li>
-				<li>4 ss sukker</li>
-				<li>2 ss soya-saus </li>
-				<li>6 ss ketchup</li>
-			</ul>
-		</li>
-		<li>
-			<ul>
-				<li><h3>Kyllingen</h3> </li>
-				<li>450 gr kyllingm skjært i terninger</li>
-				<li>5 ss vegetabilsk olje</li>
-				<li>1/2 ts knust hvitløk </li>
-				<li>1/2 ts fersk ingefær </li>
-				<li>1 grønn paprika, hakket</li>
-				<li>1 gulrot, skjært i fine strimler</li>
-				<li>1 ts sesam-olje </li>
-				<li>1 ss finhakket vårløk </li>
-			</ul>
-		</li>
-
-	<ul>
-</ingredients>
-<steps>
-<ol>
-	<li>Begynne med marinaden. Bland alle ingrediensene sammen i en bolle, og la kylling marinere i minst 20 minutter. </li>
-	<li>Legg pølsebitene i stekepannen, og la dem ligge der noen minutter på passe varme, før du tilsetter grønnsakene.</li>
-	<li>Når pølsebitene begynner å bli brune, så tilsetter du tomatsausen og lar den koke i noen minutter.</li>
-	<li>Retten passer fint ilag med ris eller poteter, men fungerer veldig fint på egenhånd også. Velbekomme. </li>
-</ol>
-</steps>
-<images></images>
+<recipe>
+	<name>Sursøt kylling</name>
+	<size>2 Porsjoner</size>
+	<time>10</time>
+	<difficulty>2</difficulty>
+	<description>Kylling marinert i hjemmelaget marinade, med egen saus og ris.</description>
+	<ingredients>
+		<h3>Marinaden</h3>
+		<ul>
+			<li>2 ts soya-saus </li>
+			<li>1 ts shaoxing risvin (eller sherry/eplejuice) </li>
+			<li> klype hvit pepper </li>
+			<li>1/2 ts salt</li>
+			<li>dæsj sesam-olje</li>
+		</ul>
+		<h3>Saus</h3>
+		<ul>
+			<li>8 ss risvinseddik </li>
+			<li>4 ss sukker</li>
+			<li>2 ss soya-saus </li>
+			<li>6 ss ketchup</li>
+		</ul>
+		<h3>Kyllingen</h3> 
+		<ul>
+			<li>450 gr kylling, skjært i terninger</li>
+			<li>5 ss vegetabilsk olje</li>
+			<li>1/2 ts knust hvitløk </li>
+			<li>1/2 ts fersk ingefær </li>
+			<li>1 grønn paprika, hakket</li>
+			<li>1 gulrot, skjært i fine strimler</li>
+			<li>1 ts sesam-olje </li>
+			<li>1 ss finhakket vårløk </li>
+		</ul>
+	</ingredients>
+	<steps>
+		<ol>
+			<li>Begynne med marinaden. Bland alle ingrediensene sammen i en bolle, og la kylling marinere i minst 20 minutter. </li>
+			<li>Legg pølsebitene i stekepannen, og la dem ligge der noen minutter på passe varme, før du tilsetter grønnsakene.</li>
+			<li>Når pølsebitene begynner å bli brune, så tilsetter du tomatsausen og lar den koke i noen minutter.</li>
+			<li>Retten passer fint ilag med ris eller poteter, men fungerer veldig fint på egenhånd også. Velbekomme. </li>
+		</ol>
+	</steps>
+	<images></images>
+</recipe>

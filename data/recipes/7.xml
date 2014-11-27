@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE recipes SYSTEM "recipes.dtd">
-<name>Peppernøtter</name>
-<size>1 Porsjon</size>
-<time>60</time>
-<difficulty>1</difficulty>
-<description>Peppernøtter er sprø og smakfulle små kjeks, og regnes ofte som en av julens favoritter både av liten og stor.</description>
-<ingredients>
-			<ul>
-				<li>250 g mørk sirup </li>
-				<li>185 g sukker </li>
-				<li>65 g smør</li>
-				<li>1⁄2 dl kremfløte</li>
-				<li>ca. 500 g hvetemel</li>
-				<li>1 ts malt anis</li>
-				<li>1⁄2 ts malt pepper</li>
-				<li>3⁄4 ts natron</li>
-			</ul>
-</ingredients>
-<steps>
-<ol>
-	<li>Forvarm stekeovn til 180 °C. Gjør klar et stekebrett, eller to med bakepapir. </li>
-	<li>Kok opp sirup, sukker, smør og kremfløte. Avkjøl.</li>
-	<li>Sikt inn de tørre ingrediensene. Elt deigen godt sammen. </li>
-	<li>Trill deigen til fingertykk lengde. Del i små emner og trill til kuler. Sett kulene over på stekebrett. </li>
-	<li>Stek midt i ovnen i ca. 10 minutter. Avkjøl på rist.</li>
-	<li>Kilde, og opphavsrett tilhørerer Matprat: http://www.matprat.no/oppskrifter/tradisjon/peppernotter/</li>
-</ol>
-</steps>
-<images></images>
+<recipe>
+	<name>Peppernøtter</name>
+	<size>1 Porsjon</size>
+	<time>60</time>
+	<difficulty>1</difficulty>
+	<description>Peppernøtter er sprø og smakfulle små kjeks, og regnes ofte som en av julens favoritter både av liten og stor.</description>
+	<ingredients>
+		<ul>
+			<li>250 g mørk sirup </li>
+			<li>185 g sukker </li>
+			<li>65 g smør</li>
+			<li>1⁄2 dl kremfløte</li>
+			<li>ca. 500 g hvetemel</li>
+			<li>1 ts malt anis</li>
+			<li>1⁄2 ts malt pepper</li>
+			<li>3⁄4 ts natron</li>
+		</ul>
+	</ingredients>
+	<steps>
+		<ol>
+			<li>Forvarm stekeovn til 180 °C. Gjør klar et stekebrett, eller to med bakepapir. </li>
+			<li>Kok opp sirup, sukker, smør og kremfløte. Avkjøl.</li>
+			<li>Sikt inn de tørre ingrediensene. Elt deigen godt sammen. </li>
+			<li>Trill deigen til fingertykk lengde. Del i små emner og trill til kuler. Sett kulene over på stekebrett. </li>
+			<li>Stek midt i ovnen i ca. 10 minutter. Avkjøl på rist.</li>
+			<li>Kilde, og opphavsrett tilhørerer Matprat: http://www.matprat.no/oppskrifter/tradisjon/peppernotter/</li>
+		</ol>
+	</steps>
+	<images></images>
+</recipe>
