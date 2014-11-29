@@ -39,7 +39,13 @@ function showResult(id) {
 		link.appendChild(title);
 
 		var desc = document.createElement('p');
-		desc.textContent = recipe['description'];
+		var description_text;
+		if (recipe['description']['#cdata']) {
+			description_text = str2DOMElement(recipe['description']['#cdata']);
+		} else {
+			description_text = document.createTextNode(recipe['description']);
+		}
+		desc.appendChild(description_text);
 		rightContainer.appendChild(desc);
 	});
 
