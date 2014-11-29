@@ -16,6 +16,18 @@ function getAndParse (url, cb) {
     xhr.send();
 };
 
+var str2DOMElement = function(html) {
+    var frame = document.createElement('iframe');
+    frame.style.display = 'none';
+    document.body.appendChild(frame);             
+    frame.contentDocument.open();
+    frame.contentDocument.write(html);
+    frame.contentDocument.close();
+    var el = frame.contentDocument.body.firstChild;
+    document.body.removeChild(frame);
+    return el;
+}
+
 function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
     var vars = query.split('&');

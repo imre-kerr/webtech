@@ -8,6 +8,7 @@
 	<description>En sandwich er superdigg mat på travle førjulsdager. Alt du trenger er brød, sennep, ost og en deilig juleskinke.  
 	</description>
 	<ingredients>
+		<![CDATA[
 		<ul>
 			<li>2 skiver brød </li>
 			<li>2 ts sennep</li>
@@ -17,13 +18,16 @@
 			<li>20 g ferdig blandet salat</li>
 			<li>1 ss lettrømme</li>
 		</ul>
+		]]>
 	</ingredients>
 	<steps>
+		<![CDATA[
 		<ol>
 			<li> Smør brødskiver med sennep. Fordel ost på skivene. Legg juleskinke på den ene skiven og legg den andre skiven oppå. </li>
 			<li>Stek brødskivene på begge sider i en varm stekepanne med olje til de er pent gylne og osten har smeltet.</li>
 			<li>Bilde, og opphavsrett tilhørerer Matprat: http://www.matprat.no/oppskrifter/rask/sandwich-med-juleskinke-ost-og-sennep/</li>
 		</ol>
+		]]>
 	</steps>
 	<images>media/img/sandwich.jpg</images>
 </recipe>

@@ -7,6 +7,7 @@
 	<difficulty>2</difficulty>
 	<description>Kylling marinert i hjemmelaget marinade, med egen saus og ris.</description>
 	<ingredients>
+		<![CDATA[
 		<h3>Marinaden</h3>
 		<ul>
 			<li>2 ts soya-saus </li>
@@ -33,14 +34,17 @@
 			<li>1 ts sesam-olje </li>
 			<li>1 ss finhakket vårløk </li>
 		</ul>
+		]]>
 	</ingredients>
 	<steps>
+		<![CDATA[
 		<ol>
 			<li>Begynne med marinaden. Bland alle ingrediensene sammen i en bolle, og la kylling marinere i minst 20 minutter. </li>
 			<li>Legg pølsebitene i stekepannen, og la dem ligge der noen minutter på passe varme, før du tilsetter grønnsakene.</li>
 			<li>Når pølsebitene begynner å bli brune, så tilsetter du tomatsausen og lar den koke i noen minutter.</li>
 			<li>Retten passer fint ilag med ris eller poteter, men fungerer veldig fint på egenhånd også. Velbekomme. </li>
 		</ol>
+		]]>
 	</steps>
 	<images></images>
 </recipe>

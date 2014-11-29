@@ -43,26 +43,40 @@ function getDiffImage (diff) {
 }
 
 function fillDocument(xmlDocument) {
-	var name = xmlDocument.getElementsByTagName('name')[0].innerHTML;
-	var desc = xmlDocument.getElementsByTagName('description')[0].innerHTML;
-	var size = xmlDocument.getElementsByTagName('size')[0].innerHTML;
-	var time = xmlDocument.getElementsByTagName('time')[0].innerHTML;
-	var diff = xmlDocument.getElementsByTagName('difficulty')[0].innerHTML;
-	var ingredients = xmlDocument.getElementsByTagName('ingredients')[0].innerHTML;
-	var steps = xmlDocument.getElementsByTagName('steps')[0].innerHTML;
-	var image = xmlDocument.getElementsByTagName('images')[0].innerHTML;
+	var recipe;
+	eval("recipe = " + xml2json(xmlDocument, "  ") + "[\"recipe\"];");
+	console.log(recipe);
+	document.getElementById('recipe-title').textContent = recipe['name'];
 
-	document.getElementById('recipe-title').innerHTML = name;
-	document.getElementById('ingredient-list-container').innerHTML = ingredients;
-	document.getElementById('recipe-description').innerHTML = desc;
-	document.getElementById('recipe-steps').innerHTML = steps;
-	document.getElementById('food-image').setAttribute('src', image);
-	document.getElementById('size').innerHTML = size;
-	document.getElementById('time').innerHTML = time;
-	document.getElementById('diff').innerHTML = getDiffString(diff);
-	document.getElementById('diff-icon').setAttribute('src', getDiffImage(diff));
+	while (document.getElementById('ingredient-list-container').firstChild) {
+		document.getElementById('ingredient-list-container').firstChild.remove();
+	}
+	var ingredients = str2DOMElement(recipe['ingredients']['#cdata']);
+	document.getElementById('ingredient-list-container').appendChild(ingredients);
 
+	var description;
+	if (recipe['description']['#cdata']) {
+		description = str2DOMElement(recipe['description']['#cdata']);
+	} else {
+		description = document.createTextNode(recipe['description']);
+	}
+	document.getElementById('recipe-description').firstChild.remove();
+	document.getElementById('recipe-description').appendChild(description);
+
+	while (document.getElementById('recipe-steps').firstChild) {
+		document.getElementById('recipe-steps').firstChild.remove();
+	}
+	var steps = str2DOMElement(recipe['steps']['#cdata']);
+	document.getElementById('recipe-steps').appendChild(steps);
+
+	document.getElementById('food-image').setAttribute('src', recipe['images']);
+	document.getElementById('size').textContent = recipe['size'];
+	document.getElementById('time').textContent = recipe['time'];
+	document.getElementById('diff').textContent = getDiffString(recipe['difficulty']);
+	document.getElementById('diff-icon').setAttribute('src', getDiffImage(recipe['difficulty']));
 }
+
+
 
 window.addEventListener('load', function() {
 	var recipeID = getQueryVariable('id');

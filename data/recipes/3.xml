@@ -7,6 +7,7 @@
 	<time>20 minutter</time>
 	<difficulty>1</difficulty>
 	<ingredients>
+		<![CDATA[
 		<ul>
 		<li>200g pastaskruer</li>
 		<li>1 bunt stangselleri</li>
@@ -15,14 +16,17 @@
 		<li>2 bokser tunfisk</li>
 		<li>100g majones</li>
 		</ul>
+		]]>
 	</ingredients>
 	<steps>
+		<![CDATA[
 		<ol>
 		<li>Kok pasta etter anvisning på pakken.</li>
 		<li>Hakk grønnsaker og ha dem i en stor bolle.</li>
 		<li>Hell av vannet/oljen fra tunfisken. Ha tunfisken og majonesen i bollen. Bland alt godt sammen.</li>
 		<li>Når pastaen er ferdigkokt, avkjøl den ved å skylle med kaldt vann. Ha den oppi bollen og bland en siste gang.</li>
 		</ol>
+		]]>
 	</steps>
 	<images>
 		media/img/tunfisksalat.jpg

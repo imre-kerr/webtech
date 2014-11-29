@@ -2,6 +2,9 @@ var searchIndex = undefined;
 
 function showResult(id) {
 	getAndParse('data/recipes/' + id + '.xml', function(xmlDocument) {
+		var recipe;
+		eval("recipe = " + xml2json(xmlDocument, "  ") + "[\"recipe\"];");
+
 		var section = document.createElement('section');
 		document.getElementById('search-results').appendChild(section);
 
@@ -13,7 +16,7 @@ function showResult(id) {
 		imageContainer.setAttribute('class', 'pure-u-1-4');
 		grid.appendChild(imageContainer);
 
-		var imgUrl = xmlDocument.getElementsByTagName('images')[0].innerHTML;
+		var imgUrl = recipe['images'];
 		var image = document.createElement('img');
 		image.setAttribute('src', imgUrl);
 		image.setAttribute('class', 'pure-img')
@@ -32,11 +35,11 @@ function showResult(id) {
 		rightContainer.appendChild(link);
 
 		var title = document.createElement('h3');
-		title.innerHTML = xmlDocument.getElementsByTagName('name')[0].innerHTML;
+		title.textContent = recipe['name'];
 		link.appendChild(title);
 
 		var desc = document.createElement('p');
-		desc.innerHTML = xmlDocument.getElementsByTagName('description')[0].innerHTML;
+		desc.textContent = recipe['description'];
 		rightContainer.appendChild(desc);
 	});
 
