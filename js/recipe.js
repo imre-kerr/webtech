@@ -48,9 +48,6 @@ function fillDocument(xmlDocument) {
 	console.log(recipe);
 	document.getElementById('recipe-title').textContent = recipe['name'];
 
-	while (document.getElementById('ingredient-list-container').firstChild) {
-		document.getElementById('ingredient-list-container').firstChild.remove();
-	}
 	var ingredients = str2DOMElement(recipe['ingredients']['#cdata']);
 	document.getElementById('ingredient-list-container').appendChild(ingredients);
 
