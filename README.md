@@ -19,6 +19,8 @@ Client-side-programming:  Som nevnt over, bruker vi JavaScript til å hente opps
 
 Server-side Programming: Vi har ikke server-side programmering, da vi fant ut at vi kunne gjøre alt vi ville gjøre med JavaScript, og det da betyr at vi slipper å styre med å ha en server. 
 
+Lineær navigering: Dette ser litt styggt ut, men man kan gå fra side til side, lineært. Dette er noe som egentlig ikke gir mening å ha med, da man gjerne vil ha relaterte oppskrifter( dette er ikke implementert), og ikke neste oppskrift i rekka. Dette er ett problem siden vår "database" over oppskrifter ikke er sortert etter emner. Hadde ikke dette vært en del av det obligatoriske i oppgaven hadde vi droppet det.
+
 
 TODO-liste som vi ville implementert hvis vi hadde hatt tid/prosjektet hadde vært større: 
  - Søk på innhold
