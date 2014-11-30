@@ -48,9 +48,6 @@ function fillDocument(xmlDocument) {
 	console.log(recipe);
 	document.getElementById('recipe-title').textContent = recipe['name'];
 
-	while (document.getElementById('ingredient-list-container').firstChild) {
-		document.getElementById('ingredient-list-container').firstChild.remove();
-	}
 	var ingredients = str2DOMElement(recipe['ingredients']['#cdata']);
 	document.getElementById('ingredient-list-container').appendChild(ingredients);
 
@@ -80,5 +77,41 @@ function fillDocument(xmlDocument) {
 window.addEventListener('load', function() {
 	var recipeID = getQueryVariable('id');
 	var recipeURL = "data/recipes/" + recipeID + ".xml";
-	var recipeXML = getAndParse(recipeURL, fillDocument);
+	getAndParse(recipeURL, fillDocument);
+
+	var linearNav = document.createElement('div');
+	document.getElementsByClassName('recipe-right')[0].appendChild(linearNav);
+	linearNav.appendChild(document.createElement('hr'));
+	linearNav.setAttribute('class', 'pure-g');
+
+	var prevID = parseInt(recipeID)-1;
+	recipeURL = "data/recipes/" + prevID + ".xml";
+	getAndParse(recipeURL, function (xml) {
+		var prevDiv = document.createElement('div');
+		prevDiv.setAttribute('class', 'pure-u-1-2');
+		var prevTitle = xml.getElementsByTagName('name')[0].firstChild.data;
+		var prevLink = document.createElement('a');
+		var prevLinkText = document.createTextNode('< ' + prevTitle);
+		prevLink.appendChild(prevLinkText);
+		prevLink.setAttribute('href', 'recipe.html?id='+prevID);
+		prevDiv.appendChild(prevLink);
+		prevDiv.style.textAlign = 'left';
+		prevDiv.style.fontSize = 'small';
+		linearNav.appendChild(prevDiv);
+	});
+
+	var nextID = parseInt(recipeID)+1;
+	recipeURL = "data/recipes/" + nextID + ".xml";
+	getAndParse(recipeURL, function (xml) {
+		var nextDiv = document.createElement('div');
+		nextDiv.setAttribute('class', 'pure-u-1-2');
+		var nextTitle = xml.getElementsByTagName('name')[0].firstChild.data;
+		var nextLink = document.createElement('a');
+		nextLink.appendChild(document.createTextNode(nextTitle + ' >'));
+		nextLink.setAttribute('href', 'recipe.html?id='+nextID);
+		nextDiv.appendChild(nextLink);
+		nextDiv.style.textAlign = 'right';
+		nextDiv.style.fontSize = 'small';
+		linearNav.appendChild(nextDiv);
+	});
 });
