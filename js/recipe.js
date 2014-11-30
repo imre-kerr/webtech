@@ -45,8 +45,8 @@ function getDiffImage (diff) {
 function fillDocument(xmlDocument) {
 	var recipe;
 	eval("recipe = " + xml2json(xmlDocument, "  ") + "[\"recipe\"];");
-	console.log(recipe);
 	document.getElementById('recipe-title').textContent = recipe['name'];
+	document.title += ' - ' + recipe['name'];
 
 	var ingredients = str2DOMElement(recipe['ingredients']['#cdata']);
 	document.getElementById('ingredient-list-container').appendChild(ingredients);

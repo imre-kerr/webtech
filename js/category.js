@@ -53,6 +53,7 @@ function showCategory(id) {
 
 function filterCategory() {
 	var cat = getQueryVariable('cat');
+	document.title += ' - ' + cat.substring(0,1).toUpperCase() + cat.substring(1);
 
 	for (var i = categoryIndex['recipe'].length - 1; i >= 0; i--) { 
 		var category = categoryIndex['recipe'][i]["category"].toLowerCase();
