@@ -86,9 +86,9 @@ window.addEventListener('load', function() {
 
 	var prevID = parseInt(recipeID)-1;
 	recipeURL = "data/recipes/" + prevID + ".xml";
+	var prevDiv = document.createElement('div');
+	prevDiv.setAttribute('class', 'pure-u-1-2');
 	getAndParse(recipeURL, function (xml) {
-		var prevDiv = document.createElement('div');
-		prevDiv.setAttribute('class', 'pure-u-1-2');
 		var prevTitle = xml.getElementsByTagName('name')[0].firstChild.data;
 		var prevLink = document.createElement('a');
 		var prevLinkText = document.createTextNode('< ' + prevTitle);
@@ -102,9 +102,9 @@ window.addEventListener('load', function() {
 
 	var nextID = parseInt(recipeID)+1;
 	recipeURL = "data/recipes/" + nextID + ".xml";
+	var nextDiv = document.createElement('div');
+	nextDiv.setAttribute('class', 'pure-u-1-2');
 	getAndParse(recipeURL, function (xml) {
-		var nextDiv = document.createElement('div');
-		nextDiv.setAttribute('class', 'pure-u-1-2');
 		var nextTitle = xml.getElementsByTagName('name')[0].firstChild.data;
 		var nextLink = document.createElement('a');
 		nextLink.appendChild(document.createTextNode(nextTitle + ' >'));
