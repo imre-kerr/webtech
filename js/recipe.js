@@ -60,7 +60,6 @@ function fillDocument(xmlDocument) {
 	} else {
 		description = document.createTextNode(recipe['description']);
 	}
-	document.getElementById('recipe-description').firstChild.remove();
 	document.getElementById('recipe-description').appendChild(description);
 
 	while (document.getElementById('recipe-steps').firstChild) {
